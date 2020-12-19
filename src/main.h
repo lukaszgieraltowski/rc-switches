@@ -1,0 +1,10 @@
+void setupRC();
+void rcSetProtocolOrno();
+void rcSetProtocolClarus();
+void rcClarus1(bool enable);
+void rcClarus2(bool enable);
+void rcClarus3(bool enable);
+void rcOrno1(bool enable);
+void rcOrno2(bool enable);
+void rcOrno3(bool enable);
+void rcSend(const char *data);
